@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #eaf2f8;
+    margin: 0;
+    padding: 20px;
+    color: #2c3e50;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #34495e;
+    border-left: 4px solid #3498db;
+    padding-left: 12px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #34495e;
+    font-size: 15px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 18px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 6px rgba(52, 152, 219, 0.3);
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 14px 22px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-3px);
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #ecf0f1;
+    color: #34495e;
+    font-size: 15px;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+    font-weight: 700;
+}
+
+tr:hover {
+    background-color: #f4f8fb;
+}
+
+/* Link Styles */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2980b9;
+}
+
+/* Logout Button */
+form button[type="submit"] {
+    background-color: #e74c3c;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: #c0392b;
+    transform: translateY(-3px);
+}
